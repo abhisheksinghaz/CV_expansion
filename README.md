@@ -20,15 +20,15 @@ Call+:
 ### My contributions to Collections:
 - Designed & created a standalone service from scratch for generating Call log reports, Agent performance reports, and contact list reports.
 
-  Why?
-  - These report generation requests were served by the same server hosting the whole of the application.
-  - At times report generation slowed the process of calling which ultimately resulted in business loss.
-  How?
+  - Why?
+  These report generation requests were served by the same server hosting the whole of the application.
+  At times report generation slowed the process of calling which ultimately resulted in business loss.
+  - How?
   Decoupled the tightly coupled code.
   Created a service with APIs exposed for these report generation.
   The final report is pushed to the S3 bucket.
   A pre-signed URL is made available for the users to download it.
-  Result:
+  - Result:
   Report Generation is not hampering the actual business of calling.
   Reports no longer reside on servers instead, they are on S3 which is comparatively low-cost storage.
   These reports are comparatively less vulnerable to be exploited as they can be accessed only for a limited period of time.
