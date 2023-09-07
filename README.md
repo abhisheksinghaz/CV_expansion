@@ -75,7 +75,7 @@ Call+:
 ### About the project
 It is a subsidiary of Indiabulls Group. It is an e-commerce platform that helps small shop owners and vendors sell their goods all across the country.
 Dhani has 6 warehouses as of Dec 2022 across different locations in the country which enabled the quick and cost-effective delivery of goods at the buyers' doorstep.
-### My contributions to Collections:
+### My contributions to Dhani Store:
 - Implemented "product pricing" product-wise promotional feature.
 
   Why?
