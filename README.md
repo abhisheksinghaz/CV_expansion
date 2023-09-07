@@ -21,8 +21,8 @@ Call+:
 - Designed & created a standalone service from scratch for generating Call log reports, Agent performance reports, and contact list reports.
 
   Why?
-  These report generation requests were served by the same server hosting the whole of the application.
-  At times report generation slowed the process of calling which ultimately resulted in business loss.
+  - These report generation requests were served by the same server hosting the whole of the application.
+  - At times report generation slowed the process of calling which ultimately resulted in business loss.
   How?
   Decoupled the tightly coupled code.
   Created a service with APIs exposed for these report generation.
